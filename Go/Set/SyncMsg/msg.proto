@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package set;
+option go_package = "./set";
+
+message SyncMsg {
+    int32 id = 1;
+    repeated string updates = 2;
+}

@@ -1,0 +1,12 @@
+{
+    "syntax": "proto3",
+    "package": "logger",
+    "go_package": "./logger",
+    "message": {
+        "name": "LogMsg",
+        "fields": {
+            "id": "int32",
+            "logs": "string"
+        }
+    }
+}

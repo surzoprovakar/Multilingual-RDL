@@ -1,0 +1,1 @@
+java -cp .:jar/protobuf-java-3.21.12.jar Server 1 localhost:5081 Addresses1.txt Actions1.txt

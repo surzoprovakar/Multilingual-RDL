@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package counter;
+option go_package = "./counter";
+
+message SyncMsg {
+    int32 id = 1;
+    repeated string updates = 2;
+}

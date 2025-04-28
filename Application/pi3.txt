@@ -1,0 +1,4 @@
+ssh pi@172.21.223.137
+pi@172.21.223.137's password: "sil"
+
+Copy: scp file_to_copy pi@172.21.223.137:~/ReplicaGo/
